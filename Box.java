@@ -1,14 +1,7 @@
-class Box {
- double width;
- double height;
- double depth;
- Box(double w,double h,double d){
-  width=w;
-  height=h;
-  depth=d;
- }
- double volume(){
-    return width*height*depth;
+// A redundant use of this.
+Box(double w, double h, double d) {
+ this.width = w;
+ this.height = h;
+ this.depth = d;
 }
-}
-// This class declares an object of type Box.
+
